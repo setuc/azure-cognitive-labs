@@ -15,6 +15,7 @@ def show_image_caption(image_path, description):
     plt.axis('off')
     plt.imshow(img)
 
+
 def show_image_analysis(image_path, analysis):
     import matplotlib.pyplot as plt
     from PIL import Image, ImageDraw
@@ -77,3 +78,26 @@ def show_image_analysis(image_path, analysis):
     a.text(0,0.4, details, fontsize=12)
     plt.axis('off')
     plt.show()
+
+
+def show_bounding_boxes(image_path, analysis):
+    import matplotlib.pyplot as plt
+    from PIL import Image, ImageDraw
+    import numpy as np
+
+    # Display the image
+    fig = plt.figure(figsize=(16, 8))
+    img = Image.open(image_path)
+    
+    # Get objects
+    if analysis.objects:
+        # Draw a rectangle around each object
+        for object in analysis.objects:
+            r = object.rectangle
+            bounding_box = ((r.x, r.y), (r.x + r.w, r.y + r.h))
+            draw = ImageDraw.Draw(img)
+            draw.rectangle(bounding_box, outline='magenta', width=5)
+            plt.annotate(object.object_property,(r.x, r.y), backgroundcolor='magenta')
+
+    plt.axis('off')
+    plt.imshow(img)
