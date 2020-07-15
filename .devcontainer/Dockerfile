@@ -48,6 +48,9 @@ RUN apt-get update \
     # Added Anomaly Detection Client Library
     && pip --disable-pip-version-check --no-cache-dir install azure-cognitiveservices-anomalydetector \
     #
+    # Added Personalizer Client Library
+    && pip --disable-pip-version-check --no-cache-dir install azure-cognitiveservices-personalizer \
+    #
     # Create a non-root user to use if preferred - see https://aka.ms/vscode-remote/containers/non-root-user.
     && groupadd --gid $USER_GID $USERNAME \
     && useradd -s /bin/bash --uid $USER_UID --gid $USER_GID -m $USERNAME \
