@@ -11,7 +11,7 @@ The exercises are designed to be completed in Visual Studio Online. To complete 
 
 To set up a Visual Studio Codespace:
 
-1. Open <a href = "https://online.visualstudio.com/environments/new?azure-portal=true&name=ai-fundamentals&repo=setuc/azure-cognitive-labs" target="_blank" rel="noopener">Visual Studio Online</a> in a new browser tab; and if prompted, sign in using the Microsoft account associated with your Azure subscription.
+1. Open <a href = "https://online.visualstudio.com/environments/new?azure-portal=true&name=azure-cognitive-labs&repo=setuc/azure-cognitive-labs" target="_blank" rel="noopener">Visual Studio Online</a> in a new browser tab; and if prompted, sign in using the Microsoft account associated with your Azure subscription.
 2. If you don't already have a Visual Studio Codespaces billing plan, create one. Then create a codespace with the following settings:
     - **Codespace Name**: *A name for your codespace - for example, **ai-fundamentals**.*
     - **Git Repository**: setuc/azure-cognitive-labs
