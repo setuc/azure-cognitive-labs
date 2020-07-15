@@ -1,0 +1,6 @@
+{
+ "morning": {"sweet": "juice", "salty": "salad"},
+ "afternoon": {"sweet": "juice", "salty": "pasta"},
+ "evening": {"sweet": "juice", "salty": "salad"},
+ "night": {"sweet": "ice cream", "salty": "salad"}
+}
