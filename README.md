@@ -2,7 +2,10 @@
 
 The sample code in this repository is for use in hands-on exercises in various cognitive services.
 
-## Setup
+## Setup on Gitpod
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/setuc/azure-cognitive-labs)
+
+## Setup on Visual Studio
 
 The exercises are designed to be completed in Visual Studio Online. To complete the labs, you'll need the following:
 
