@@ -5,6 +5,11 @@ The sample code in this repository is for use in hands-on exercises in various c
 ## Setup on Gitpod
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/setuc/azure-cognitive-labs)
 
+Once the docker is setup and the envoirnment is available, use the terminal to run the following command:
+```
+jupyter notebook --ip 0.0.0.0 --no-browser --allow-root
+```
+
 ## Setup on Visual Studio
 
 The exercises are designed to be completed in Visual Studio Online. To complete the labs, you'll need the following:
